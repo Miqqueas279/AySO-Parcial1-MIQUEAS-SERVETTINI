@@ -1,20 +1,20 @@
-paso 1 crear ususarios:
+Paso 1 crear ususarios:
 sudo useradd -m developer
 sudo useradd -m tester
 sudo useradd -m devops
 sudo useradd -m diseñador
 
-paso 2 crear grupos:
+Paso 2 crear grupos:
 sudo groupadd grupodevops
 sudo groupadd grupodiseño
 sudo groupadd grupodeveloper
 
-paso 3 añadir usuarios a los grupos:
+Paso 3 añadir usuarios a los grupos:
 sudo usermod -aG grupodevops developer
 sudo usermod -aG grupodiseño tester
 sudo usermod -aG grupodeveloper devops
 
-paso 4 dar permisos a los ususarios:
+Paso 4 dar permisos a los ususarios:
 
 alumno1:
 sudo chown developer:developer /Examenes-UTN/alumno_1
@@ -38,7 +38,7 @@ sudo chmod -R 700 /Examenes-UTN/alumno_2
 sudo chmod -R 770 /Examenes-UTN/alumno_3
 sudo chmod -R 770 /Examenes-UTN/profesores
 
-paso 5 crear archivo validadr con whoami:
+Paso 5 crear archivo validadr con whoami:
 
 cd /Examenes-UTN/alumno_
 whoami > validar.txt
