@@ -1,4 +1,4 @@
-pasos a seguir crear estructrura:
+Pasos a seguir crear estructrura:
 
 kdir -p Estructura_Asimetrica/correo
 mkdir -p Estructura_Asimetrica/clientes
@@ -14,5 +14,5 @@ for i in $(seq 1 10); do
   touch Estructura_Asimetrica/correo/cartero_$i
 done
 
-revisar con tree:
+Revisar con tree:
 tree Estructura_Asimetrica
